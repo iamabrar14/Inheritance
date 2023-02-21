@@ -6,7 +6,7 @@ class base{
    void display(){
       cout<<"Displaying base variable "<<var_base<<endl;
    }
-};
+};   
 class derived : public base{
    public:
    int var_derived;

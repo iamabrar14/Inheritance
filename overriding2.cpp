@@ -5,7 +5,7 @@ class person{
     void display(){
         cout<<"I am a person "<<endl;
     }
-};
+};   //overriding means more than one function having method with same name
 class student:public person{
     public:
     void display(){
